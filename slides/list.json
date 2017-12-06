@@ -5,5 +5,7 @@
     "restart-router.html",
     "restart-router-solution.html",
     "set-the-device-host-name-to-router01.html",
-    "set-the-device-host-name-to-router01-solution.html"
+    "set-the-device-host-name-to-router01-solution.html",
+    "enable-synchronous-logging.html",
+    "enable-synchronous-logging-solution.html"
 ]
