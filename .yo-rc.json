@@ -1,0 +1,9 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "CCNA Kata",
+    "packageVersion": "0.0.1",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": false
+  }
+}
