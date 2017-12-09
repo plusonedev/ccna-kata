@@ -1,3 +1,16 @@
 <h2>Setup DHCP pool for 0/1 - Solution</h2>
 
-<p>Please change me!</p>
+<section>
+    <pre><code class="nohighlight" data-trim data-noescape>
+> enable
+# config term
+(config)# ip dhcp pool primary-pool
+(dhcp-config)# network 10.0.0.0 /24
+(dhcp-config)# domain-name testnet.local
+(dhcp-config)# dns-server 8.8.8.8 8.8.4.4
+(dhcp-config)# default-router 10.0.0.1
+(dhcp-config)# lease 7
+(dhcp-config)# exit
+(config)# ip dhcp excluded-add 10.0.0.1 10.0.0.99
+    </code></pre>
+</section>

@@ -1,3 +1,9 @@
 <h2>Set DNS servers to 8.8.8.8 and 8.8.4.4 - Solution</h2>
 
-<p>Please change me!</p>
+<section>
+    <pre><code class="nohighlight" data-trim data-noescape>
+> enable
+# config term
+(config)# ntp server pool.ntp.org (if dns is setup ip address if not)
+    </code></pre>
+</section>

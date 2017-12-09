@@ -1,3 +1,11 @@
 <h2>Set interface 0/1 to 10.0.0.1 255.255.255.0 - Solution</h2>
 
-<p>Please change me!</p>
+<section>
+    <pre><code class="nohighlight" data-trim data-noescape>
+> enable
+# config term
+(config)# interface fa 0/1
+(config-if)# ip address 10.0.0.1 255.255.255.0
+(config-if)# no shutdown
+    </code></pre>
+</section>

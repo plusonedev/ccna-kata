@@ -47,5 +47,10 @@
     [
         "save-running-config-to-startup-config.html",
         "save-running-config-to-startup-config-solution.html"
+    ],
+    [
+        "restart-router.html",
+        "restart-router-solution.html"
     ]
+ 
 ]
