@@ -1,4 +1,4 @@
-#The CCNA Kata
+# The CCNA Kata
 
 Practice makes perfect but finding time to practice can be difficult.  This repo is a collection of common setup tasks for Cisco routers and switches.  The idea is to be able to sit down and run through this kata as fast as possible in as little time as possible, making all of these tasks second nature.
 
